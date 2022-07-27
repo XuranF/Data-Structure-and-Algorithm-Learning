@@ -134,7 +134,7 @@ public class BinomialHeap {
         }
         iter.sibling=minimum.sibling;
         minimum.sibling=null;
-        head=union(head,disassemble(minimum.child));
+        head=union(dummy.sibling,disassemble(minimum.child));
         return minimum;
     }
     //break down the child of minimum child
