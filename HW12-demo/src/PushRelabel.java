@@ -163,8 +163,6 @@ public class PushRelabel {
                 System.out.print(flow[i][j]+"   ");
             }
             System.out.print("\n");
-        }
-    }
 
     public void printL(){
         System.out.println("This is L and N table:");
